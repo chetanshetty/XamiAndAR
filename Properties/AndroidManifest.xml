@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="XamiAndARApp.XamiAndARApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="12" android:targetSdkVersion="12" />
+	<!--<application android:label="XamiAndARApp" android:icon="@drawable/Icon">-->
+	<!--<activity android:label="XamiAndARApp"
+             android:name=".SplashActivity"  android:clearTaskOnLaunch="true"
+             android:screenOrientation="landscape" android:noHistory="true">
+
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+
+    </activity>-->
+	<!--<activity android:label="@string/ApplicationName" android:name="Activity1" android:clearTaskOnLaunch="true" android:screenOrientation="landscape" android:noHistory="true"></activity>
+	</application>-->
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<application android:icon="@drawable/Icon" android:label="XamiAndARApp" />
+</manifest>
